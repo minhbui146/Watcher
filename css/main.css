@@ -1,0 +1,137 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+h1{
+    font-family: Century Gothic, sans-serif;
+    letter-spacing: 5px;
+    
+}
+p {
+    font-family: century gothic, sans-serif;
+    font-weight: 300;
+}
+  
+
+#mockup1 {
+    width: ;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   background-color: #f9f8f9;
+
+}
+
+[class*="col-"] {
+    float: left;
+    width: 100%;
+    text-align: center;
+    
+    
+    padding: 10px 30px 20px 30px;
+}
+
+#clickable {
+    color: aliceblue
+    
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.content {
+    position: absolute;
+    top: 100%;
+}
+
+.middle {
+    background-color: white;
+    color: #253269 ;
+}
+
+
+.colour {
+    background-color: white;
+    color: #253269;
+    height: 400px;
+}
+
+#colourPalette {
+    height: 100%;
+}
+
+.font {
+    height: 250px;
+    background-color: white;
+    color: #222;
+}
+
+#fontImg {
+    height: 100%;
+}
+
+
+* {
+    box-sizing: border-box;
+    transition: .3s ease-in-out;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    
+    [class*="col-"] {
+        text-align: center;
+    }
+    
+    .col-4 {width: 100%;}
+
+    
+     .middle p {
+        text-align:;
+    }
+    
+    .colour p {
+        text-align:;
+    }
+    
+}
+
+@media screen and (min-width: 1280px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 100%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 100%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    
+    .colour {
+        height: 450px;
+    }
+}
